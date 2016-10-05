@@ -77,13 +77,13 @@ RCT_EXPORT_METHOD(setTimeout:(int)timeoutId
     resolve([NSNumber numberWithBool:YES]);
 }
 
-/*
+
 RCT_EXPORT_METHOD(clearTimeout:(int)timeoutId
                   resolver:(RCTPromiseResolveBlock)resolve
                   rejecter:(RCTPromiseRejectBlock)reject)
 {
     // Do nothing :)
     // timeout will be ignored in javascript anyway :)
-}*/
+}
 
 @end
